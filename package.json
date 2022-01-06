@@ -1,0 +1,17 @@
+{
+  "name": "hijinx",
+  "version": "1.0.0",
+  "description": "small website",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": "https://github.com/coalwork/hiijinx",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  }
+}

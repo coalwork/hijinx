@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link ref="stylesheet" href="/styles/base.css">
+    {{#if (not doesNotHaveHelper)}}
+        <link ref="stylesheet" href="/styles/header.css">
+    {{/if}}
+</head>
+<body>
+    {{#if (not doesNotHaveHelper)}}
+        {{> header}}
+    {{/if}}
+    {{{body}}}
+</body>
+</html>
